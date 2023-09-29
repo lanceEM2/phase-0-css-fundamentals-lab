@@ -3,3 +3,42 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+}
+
+.head {
+  background-color: gray;
+}
+
+
+#featured-property {
+  text-align: center;
+}
+
+.just {
+  width: 800px;
+  text-align: center;
+  margin-left: 20rem;
+}
+
+#details::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.foot {
+  float: left;
+  margin-right: 15rem;
+  text-align: center;
+}
+
+#details {
+  background-color: red;
+}
